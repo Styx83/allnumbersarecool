@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1ecd8;
+    font-family: Lexend;
+    --clr-primary: #1c2dae;
+    --box-clr1: #ffc547;
+    --box-clr2: #eb98bb;
+    --box-clr3: #dc3423;
+    text-align: justify;
+}
+
+
+@media screen and (min-width: 1100px) {
+nav {
+    width: 98%;
+    padding: 15px;
+    background-color: var(--clr-primary);
+    box-shadow: 0px 6px 20px 0px var(--clr-primary);
+    font-size: large;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#logo {
+    width: 75%;
+    margin: 12.5% 12.5% 5% 12.5%;
+}
+
+#content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#left-container {
+    width: 50%;
+}
+
+#flashcards-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    overflow:hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #e0dbc9;
+    padding-bottom: 10%;
+}
+
+.flashcard{
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 8px 10px 0px #b1ac9b;
+}
+
+#about_us {
+    color: #ffffff;
+    background-color:  var(--clr-primary);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5%;
+    box-shadow: 5px 8px 10px 0px #b1ac9b;
+}
+}
+
+@media screen and (max-width: 1100px) {
+nav {
+    width: 98%;
+    padding: 15px;
+    background-color: var(--clr-primary);
+    box-shadow: 0px 6px 20px 0px var(--clr-primary);
+    font-size: large;
+    color: #ffffff;
+    display: none;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#logo {
+    width: 80%;
+    margin: 12.5% 12.5% 5% 12.5%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#flashcards-container {
+    display: flex;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #e0dbc9;
+    padding-bottom: 10%;
+}
+
+.flashcard{
+    margin: 10% 5% 0% 5%;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 8px 10px 0px #b1ac9b;
+}
+
+#about_us {
+    color: #ffffff;
+    background-color:  var(--clr-primary);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5%;
+    box-shadow: 5px 8px 10px 0px #b1ac9b;
+}
+}
