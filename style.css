@@ -6,10 +6,11 @@
 body {
     background-color: #f1ecd8;
     font-family: Lexend;
-    --clr-primary: #1c2dae;
-    --box-clr1: #ffc547;
-    --box-clr2: #eb98bb;
-    --box-clr3: #dc3423;
+    --clr-primary: #6a95d3;
+    --box-clr1: #F7b558;
+    --box-clr2: #ed719c;
+    --box-clr3: #fc9c51;
+    --box-clr4: #c8ce72;
     text-align: justify;
 }
 
